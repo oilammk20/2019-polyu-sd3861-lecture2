@@ -13,12 +13,14 @@
             }
             .primary-font {
                 font-family:'Galada', cursive;
+                color:rgb(174, 173, 255)
             }
             .secondary-font {
-                font-family:'Playball', cursive;  
+                font-family:'Playball', cursive;
+                color:rgb(173, 208, 255)  
             }
             #primary-title{
-                font-size: 100px;
+                font-size: 70px;
                 color: rgb(173, 239, 255);
             }
         </style>
@@ -26,13 +28,13 @@
 
 <body>
     <h1 id="primary-title">Haha</h1>
-    <h1 class=secondary-font>Hahaha</h1>
     <svg class="pop" id="svg" width="300" height="300" viewbox="0 0 100 100">
         <filter id="blur">
             <feGaussianBlur stdDeviation="1" />
         </filter>
         <path class="slidein" id="mountain" fill="#ab9457" d="" />
     </svg>
+    <h1 class=secondary-font>Hahaha</h1>
 
     <button class="primary-font" onclick="generateMountain()">CreateMountain</button>
 
